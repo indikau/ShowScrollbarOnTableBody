@@ -1,0 +1,52 @@
+#tableHead {
+    width: 900px;
+}
+
+    #tableHead td {
+        width: 540px;
+    }
+
+        #tableHead td + td {
+            width: 180px;
+        }
+
+            #tableHead td + td + td {
+                width: 180px;
+            }
+
+#tableBody td {
+    width: 522px;
+}
+
+    #tableBody td + td {
+        width: 174px;
+    }
+
+        #tableBody td + td + td {
+            width: auto;
+        }
+
+#tableBodyContainer {
+    border: 1px solid rgb(150,150,150);
+    height: 200px;
+    width: 898px;
+    overflow: hidden;
+}
+
+    #tableBodyContainer:hover {
+        overflow-y: auto;
+    }
+
+div table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+div th, div td {
+    border: 1px solid rgb(150,150,150);
+    padding: 4px;
+}
+
+#tableContainer {
+    padding: 20px;
+}
